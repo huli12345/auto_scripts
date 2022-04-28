@@ -27,4 +27,4 @@ ln -s ../connectedhomeip/examples/bridge-app/linux/out/bridge-app/chip-bridge-ap
 ln -s ../connectedhomeip/examples/thermostat/linux/out/thermostat/thermostat-app thermostat-app
 ln -s ../connectedhomeip/examples/ota-requestor-app/linux/out/host/chip-ota-requestor-app ota-requestor-app
 ln -s ../connectedhomeip/examples/ota-provider-app/linux/out/host/chip-ota-provider-app ota-provider-app
-ln -s ../connectedhomeip/out/door-lock-app/chip-lock-app  lock-app
+ln -s ../connectedhomeip/out/lock-app/chip-lock-app  lock-app
