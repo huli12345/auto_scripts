@@ -11,6 +11,7 @@ mv artifacts/start_otbr_setup.sh /home/ubuntu/
 mv artifacts/start_test_harness.sh /home/ubuntu/
 sudo chmod u+x start_otbr_setup.sh
 sudo chmod u+x start_test_harness.sh
+sudo mv artifacts/sysctl.conf /etc/sysctl.conf
 cd /home/ubuntu
 sudo mv artifacts/rc.local /etc/
 sudo chmod +x /etc/rc.local
