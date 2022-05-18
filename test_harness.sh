@@ -6,4 +6,7 @@ git checkout develop
 cd ..
 cd backend/
 git checkout develop
-rm -rf third_party/
+cd third_party/connectedhomeip/repo/
+git checkout master
+cd /home/ubuntu
+mkdir apps
