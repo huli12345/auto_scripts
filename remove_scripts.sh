@@ -3,7 +3,6 @@
 cd /home/ubuntu
 rm README.md 
 rm auto_start.sh 
-rm building_Apps.sh 
 rm config.sh 
 rm dependencies.sh 
 rm docker_Setup.sh 
