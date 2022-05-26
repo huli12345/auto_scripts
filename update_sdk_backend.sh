@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
-cd ~
+cd /home/ubuntu
 cd chip-certification-tool/backend
-git checkout develop
+git pull
 cd third_party/connectedhomeip/repo/
-git checkout master
+git pull
 cd ../../..
 ./scripts/build_chip_tool.sh
 ./scripts/build_simulated_apps.sh
 ./scripts/build_managed_docker_images.sh
 echo " use : docker exec -it <container ID> /bin/bash "
 echo " execute : python3 ./scripts/build_tests_wrappers.py   ; in the container "  
-echo " after which restart the docker container using : docker-compose restart <Container name> "
+echo " after which restart the docker container using : docker restart <Container name> "
