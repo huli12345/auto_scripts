@@ -5,7 +5,8 @@ sudo bash ./docker_Setup.sh &&
 bash ./building_Apps.sh
 rm flag.txt
 bash ./remove_scripts.sh
-bash ./dd.sh v_latest
+bash ./update_sdk_backend.sh
+#bash ./dd.sh v_latest
 else
 bash ./move_to_root.sh
 cd /home/ubuntu
