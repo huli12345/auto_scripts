@@ -2,12 +2,12 @@
 
 cd /home/ubuntu
 cd chip-certification-tool/backend
-git pull
+git checkout develop
 cd third_party/connectedhomeip/repo/
-git pull
+git checkout master
 cd ../../..
-./scripts/build_chip_tool.sh
-./scripts/build_simulated_apps.sh
+#./scripts/build_chip_tool.sh
+#./scripts/build_simulated_apps.sh
 ./scripts/build_managed_docker_images.sh
 echo " use : docker exec -it <container ID> /bin/bash "
 echo " execute : python3 ./scripts/build_tests_wrappers.py   ; in the container "  
