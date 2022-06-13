@@ -1,2 +1,2 @@
-#!/bin/bash
+#!/bin/bash -e
 sudo -i -u ubuntu /home/ubuntu/start_test_harness.sh
