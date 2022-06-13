@@ -2,8 +2,10 @@
 
 cd /home/ubuntu
 cd chip-certification-tool/backend
+git fetch --all
 git checkout develop
 cd third_party/connectedhomeip/repo/
+git fetch --all
 git checkout master
 cd ../../..
 #./scripts/build_chip_tool.sh
