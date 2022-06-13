@@ -15,8 +15,9 @@ sudo chmod u+x start_test_harness.sh
 sudo mv artifacts/sysctl.conf /etc/sysctl.conf
 cd /home/ubuntu
 sudo mv artifacts/rc.local /etc/
-sudo chmod +x /etc/rc.local
-sudo systemctl enable rc-local
+sudo chown root /etc/rc.local
+sudo chmod 755 /etc/rc.local
+#sudo systemctl enable rc-local
 rm -rf artifacts/
 cd cli
 source $HOME/.poetry/env && poetry update && poetry install
