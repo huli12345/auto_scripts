@@ -8,5 +8,7 @@ cd backend/
 git checkout develop
 cd third_party/connectedhomeip/repo/
 git checkout master
+git submodule sync
+git submodule update
 cd /home/ubuntu
 mkdir apps
