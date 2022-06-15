@@ -15,5 +15,5 @@ cd ../../..
 #./scripts/build_simulated_apps.sh
 ./scripts/build_managed_docker_images.sh
 echo " use : docker exec -it <container ID> /bin/bash "
-echo " execute : python3 ./scripts/build_tests_wrappers.py   ; in the container "  
+echo " execute : python3 ./scripts/build_tests_wrappers.py   ; in the container "
 echo " after which restart the docker container using : docker restart <Container name> "
