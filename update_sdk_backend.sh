@@ -8,6 +8,8 @@ cd third_party/connectedhomeip/repo/
 git fetch --all
 git checkout master
 git pull
+git submodule sync
+git submodule update
 cd ../../..
 #./scripts/build_chip_tool.sh
 #./scripts/build_simulated_apps.sh
