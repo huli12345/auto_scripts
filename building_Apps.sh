@@ -14,6 +14,7 @@ scripts/examples/gn_build_example.sh      examples/thermostat/linux/      exampl
 scripts/examples/gn_build_example.sh examples/ota-provider-app/linux examples/ota-provider-app/linux/out/host 'chip_config_network_layer_ble=false'
 scripts/examples/gn_build_example.sh examples/ota-requestor-app/linux examples/ota-requestor-app/linux/out/host 'chip_config_network_layer_ble=false'
 scripts/examples/gn_build_example.sh examples/lock-app/linux/ out/lock-app chip_inet_config_enable_ipv4=false
+scripts/examples/gn_build_example.sh      examples/all-clusters-minimal-app/linux/      examples/all-clusters-minimal-app/linux/out/all-clusters-minimal-app   chip_inet_config_enable_ipv4=false
 cd /home/ubuntu
 cd apps
 ln -s ../connectedhomeip/out/debug/chip-tool chip-tool
@@ -28,3 +29,4 @@ ln -s ../connectedhomeip/examples/thermostat/linux/out/thermostat/thermostat-app
 ln -s ../connectedhomeip/examples/ota-requestor-app/linux/out/host/chip-ota-requestor-app ota-requestor-app
 ln -s ../connectedhomeip/examples/ota-provider-app/linux/out/host/chip-ota-provider-app ota-provider-app
 ln -s ../connectedhomeip/out/lock-app/chip-lock-app  lock-app
+ln -s ../connectedhomeip/examples/all-clusters-minimal-app/linux/out/all-clusters-minimal-app/chip-all-clusters-minimal-app all-clusters-minimal-app
